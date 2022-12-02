@@ -1,15 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2022-12-02T08:58:47.385Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="QXBUGbXua0tlRQo1XvCe" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2022-12-02T09:19:26.704Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="80Zlrxhps94OilpIgn1x" version="20.6.0" type="github">
   <diagram id="752r7b34Qd-6FPrG6xQN" name="Page-1">
     <mxGraphModel dx="1422" dy="907" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LxrfSHSaZPBQn56vvCMA-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="aoSos8ScrhFAuW-EpoNA-1" target="LxrfSHSaZPBQn56vvCMA-16">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aoSos8ScrhFAuW-EpoNA-1" value="OpenShift Cluster" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="430" y="720" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="LxrfSHSaZPBQn56vvCMA-1" value="Broker MQTT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="200" y="560" width="100" height="50" as="geometry" />
         </mxCell>
@@ -38,7 +32,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="LxrfSHSaZPBQn56vvCMA-8" value="Mirror Maker" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="580" y="440" width="90" height="50" as="geometry" />
+          <mxGeometry x="565" y="440" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="LxrfSHSaZPBQn56vvCMA-9" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="590" y="555" width="40" height="60" as="geometry" />
@@ -73,8 +67,59 @@
             <mxPoint x="440" y="420" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="LxrfSHSaZPBQn56vvCMA-16" value="OpenShift Cluster" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="610" y="750" width="120" height="60" as="geometry" />
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-18" value="Head quarter (1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="20" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-19" value="Warehouse (N)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="420" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-20" value="Front&lt;br&gt;(techno à déterminer, Kibana, Grafana possible)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="294" y="435" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-21" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://res.cloudinary.com/practicaldev/image/fetch/s--DbaHwLON--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fxw43n0qsszvu7myk9db.png;" vertex="1" parent="1">
+          <mxGeometry x="660" y="20" width="150" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-22" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://res.cloudinary.com/practicaldev/image/fetch/s--DbaHwLON--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fxw43n0qsszvu7myk9db.png;" vertex="1" parent="1">
+          <mxGeometry x="660" y="416.25" width="150" height="97.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-23" value="SNO / Compact Cluster" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="690" y="525" width="105" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-24" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.gotronic.fr/ori-module-nodemcu-esp32-28407.jpg;" vertex="1" parent="1">
+          <mxGeometry x="183.84" y="990" width="152.32" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-25" value="ESP32" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="229.99999999999997" y="1106" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LxrfSHSaZPBQn56vvCMA-28" target="LxrfSHSaZPBQn56vvCMA-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-28" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://m.media-amazon.com/images/I/71sldVacymL._AC_SS450_.jpg;" vertex="1" parent="1">
+          <mxGeometry x="40" y="996" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-31" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://www.datalogic.com/_img_path_900/upload/image_gallery/jpg/products/PLP-2128P-SLED-UHF-RFID-READER-WITH-MEMOR10.jpg;" vertex="1" parent="1">
+          <mxGeometry x="170" y="770" width="138.12" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-32" value="Implémenté par un ESP 32 + Lecteur RFID" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="730" width="250" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-37" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="LxrfSHSaZPBQn56vvCMA-31" target="LxrfSHSaZPBQn56vvCMA-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="490" as="sourcePoint" />
+            <mxPoint x="440" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-38" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://i.ebayimg.com/images/g/LJ0AAOSwoJxbdjGL/s-l500.jpg;" vertex="1" parent="1">
+          <mxGeometry x="418.9" y="976" width="146.1" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="LxrfSHSaZPBQn56vvCMA-24" target="LxrfSHSaZPBQn56vvCMA-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="1061" as="sourcePoint" />
+            <mxPoint x="193.83999999999992" y="1058" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LxrfSHSaZPBQn56vvCMA-41" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="300" y="680" width="40" height="560" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
