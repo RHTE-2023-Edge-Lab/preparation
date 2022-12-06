@@ -20,4 +20,23 @@
 
 ![Schema](Schema.png)
 
+Edit the schema [here](https://app.diagrams.net/#HRHTE-2023-Edge-Lab%2Fpreparation%2Fmain%2FSchema.drawio).
+
 ## Instructions
+
+
+## Acknowledgment
+
+This lab is based on the materials provided by this [Validated Pattern](https://redhat-gitops-patterns.io/industrial-edge/).
+
+## Deadline
+
+Lab materials are due for December, the 23rd.
+
+## People
+
+* David Martini
+* Florian Even
+* Adrien Legros
+* Sébastien Lallemand
+* Nicolas Massé
