@@ -40,3 +40,19 @@ Lab materials are due for December, the 23rd.
 * Adrien Legros
 * Sébastien Lallemand
 * Nicolas Massé
+
+## To be validated
+
+* Hardware: ESP8266 + RC522
+* Hardware: Firmware source code
+* Architecture: MQTT Broker (AMQ Broker)
+* Architecture: Kafka Broker (AMQ Streams)
+* Architecture: MQTT-Kafka bridge (Camel Quarkus, Camel-K ?)
+* Architecture: Kafka replication between warehouse and headquarter (Mirror Maker)
+* Architecture: World Map Front (Kibana, Grafana, custom Quarkus frontend ?)
+* Hosting: HPE, RHPDS ?
+* Lab materials: Format (Markdown, Asciidoc ?)
+* Lab materials: Site generator (Hugo, Athena ?)
+* Lab materials: Theme
+
+
