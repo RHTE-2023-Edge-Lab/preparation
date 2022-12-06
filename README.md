@@ -51,8 +51,8 @@ Lab materials are due for December, the 23rd.
 * Architecture: Kafka replication between warehouse and headquarter (Mirror Maker)
 * Architecture: World Map Front (Kibana, Grafana, custom Quarkus frontend ?)
 * Hosting: HPE, RHPDS ?
+* Hosting: Deployment Method (ArgoCD, Ansible ?)
 * Lab materials: Format (Markdown, Asciidoc ?)
 * Lab materials: Site generator (Hugo, Athena ?)
 * Lab materials: Theme
-
 
