@@ -303,7 +303,7 @@ spec:
 
 ## Troubleshooting / Validation
 
-File `~/.config/kcat.conf`
+File `~/tmp/kcat-hq.conf`
 
 ```ini
 # Required connection configs for Kafka producer, consumer, and admin
@@ -318,9 +318,27 @@ sasl.password=s3cr3t
 session.timeout.ms=45000
 ```
 
+File `~/tmp/kcat-paris.conf`
+
+```ini
+# Required connection configs for Kafka producer, consumer, and admin
+bootstrap.servers=warehouse-paris-kafka-tls-bootstrap-warehouse-paris.apps.appdev.itix.xyz
+ssl.ca.location=/home/nmasse/tmp/warehouse-paris.pem
+security.protocol=SASL_SSL
+sasl.mechanisms=SCRAM-SHA-512
+sasl.username=camel
+sasl.password=s3cr3t
+
+# Best practice for higher availability in librdkafka clients prior to 1.7
+session.timeout.ms=45000
+```
+
 Commands:
 
 ```sh
-kcat -b headquarter-kafka-tls-bootstrap-headquarter.apps.appdev.itix.xyz:443 -L
-kcat -b headquarter-kafka-tls-bootstrap-headquarter.apps.appdev.itix.xyz:443 -C -t warehouse-paris.warehouse-in
+kcat -b warehouse-paris-kafka-tls-bootstrap-warehouse-paris.apps.appdev.itix.xyz:443 -L -F ~/tmp/kcat-paris.conf
+kcat -b warehouse-paris-kafka-tls-bootstrap-warehouse-paris.apps.appdev.itix.xyz:443 -P -F ~/tmp/kcat-paris.conf -t warehouse-in
+kcat -b warehouse-paris-kafka-tls-bootstrap-warehouse-paris.apps.appdev.itix.xyz:443 -C -F ~/tmp/kcat-paris.conf -t warehouse-in
+kcat -b headquarter-kafka-tls-bootstrap-headquarter.apps.appdev.itix.xyz:443 -L -F ~/tmp/kcat-hq.conf
+kcat -b headquarter-kafka-tls-bootstrap-headquarter.apps.appdev.itix.xyz:443 -C -F ~/tmp/kcat-hq.conf -t warehouse-paris.warehouse-in
 ```
