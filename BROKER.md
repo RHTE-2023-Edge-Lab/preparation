@@ -65,7 +65,7 @@ metadata:
   name: address
   namespace: esp32-rhte
 spec:
-  addressName: myAddress0
+  addressName: esp32
   queueName: myQueue0
   routingType: anycast
 EOF
