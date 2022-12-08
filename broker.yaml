@@ -1,0 +1,28 @@
+apiVersion: broker.amq.io/v1beta1
+kind: ActiveMQArtemis
+metadata:
+  name: mqtt-3
+  namespace: esp32-rhte
+spec:
+  acceptors:
+  - connectionsAllowed: 5
+    expose: true
+    name: mqtt
+    port: 1883
+    protocols: mqtt
+    sslEnabled: false
+    adminPassword: public
+    adminUser: admin
+  adminPassword: public
+  adminUser: admin
+  console:
+    expose: true
+  deploymentPlan:
+    image: placeholder
+    jolokiaAgentEnabled: false
+    journalType: nio
+    managementRBACEnabled: true
+    messageMigration: false
+    persistenceEnabled: false
+    requireLogin: true
+    size: 1

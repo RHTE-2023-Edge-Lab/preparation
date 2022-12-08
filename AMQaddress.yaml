@@ -1,0 +1,9 @@
+kind: ActiveMQArtemisAddress
+apiVersion: broker.amq.io/v1beta1
+metadata:
+  name: address
+  namespace: esp32-rhte
+spec:
+  addressName: myAddress0
+  queueName: myQueue0
+  routingType: anycast
