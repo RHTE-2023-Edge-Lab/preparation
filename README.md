@@ -43,16 +43,15 @@ Lab materials are due for December, the 23rd.
 
 ## To be validated
 
-* Hardware: ESP8266 + RC522
-* Hardware: Firmware source code
-* Architecture: MQTT Broker (AMQ Broker)
-* Architecture: Kafka Broker (AMQ Streams)
-* Architecture: MQTT-Kafka bridge (Camel Quarkus, Camel-K ?)
-* Architecture: Kafka replication between warehouse and headquarter (Mirror Maker)
-* Architecture: World Map Front (Kibana, Grafana, custom Quarkus frontend ?)
-* Hosting: HPE, RHPDS ?
-* Hosting: Deployment Method (ArgoCD, Ansible ?)
-* Lab materials: Format (Markdown, Asciidoc ?)
-* Lab materials: Site generator (Hugo, Athena ?)
-* Lab materials: Theme
-
+* <span style="color: green;">\[OK]</span> Hardware: ESP8266 + RC522
+* <span style="color: green;">\[OK]</span> Hardware: Firmware source code
+* <span style="color: red;">\[KO]</span> Architecture: MQTT Broker (AMQ Broker)
+* <span style="color: green;">\[OK]</span> Architecture: Kafka Broker (AMQ Streams)
+* <span style="color: red;">\[KO]</span> Architecture: MQTT-Kafka bridge (Camel Quarkus, Camel-K ?)
+* <span style="color: green;">\[OK]</span> Architecture: Kafka replication between warehouse and headquarter (Mirror Maker)
+* <span style="color: orange;">\[CHOOSE]</span> Architecture: World Map Front (Kibana, Grafana, [Quarkus frontend](https://github.com/RHTE-2023-Edge-Lab/worldmap-front), [Python frontend](https://github.com/RHTE-2023-Edge-Lab/worldmap-plotly) ?)
+* <span style="color: orange;">\[CHOOSE]</span> Hosting: HPE, RHPDS ?
+* <span style="color: red;">\[KO]</span> Hosting: Deployment Method (ArgoCD, Ansible ?)
+* <span style="color: red;">\[KO]</span> Lab materials: Format ([Markdown](https://github.com/nmasse-itix/api-lifecycle-workshop/tree/master/lab-instructions), Asciidoc ?)
+* <span style="color: red;">\[KO]</span> Lab materials: Site generator ([Hugo](https://api-lifecycle-workshop.netlify.app/), Athena ?)
+* <span style="color: red;">\[KO]</span> Lab materials: Theme ([Learn](https://learn.netlify.app/en/))
