@@ -45,13 +45,13 @@ Lab materials are due for December, the 23rd.
 
 * 🟢 Hardware: ESP8266 + RC522
 * 🟢 Hardware: Firmware source code
-* 🔴 Architecture: MQTT Broker (AMQ Broker)
+* 🟢 Architecture: MQTT Broker (AMQ Broker)
 * 🟢 Architecture: Kafka Broker (AMQ Streams)
 * 🔴 Architecture: MQTT-Kafka bridge (Camel Quarkus, Camel-K ?)
 * 🟢 Architecture: Kafka replication between warehouse and headquarter (Mirror Maker)
 * 🟠 Architecture: World Map Front (Kibana, Grafana, [Quarkus frontend](https://github.com/RHTE-2023-Edge-Lab/worldmap-front), [Python frontend](https://github.com/RHTE-2023-Edge-Lab/worldmap-plotly) ?)
-* 🟠 Hosting: HPE, RHPDS ?
-* 🔴 Hosting: Deployment Method (ArgoCD, Ansible ?)
-* 🔴 Lab materials: Format ([Markdown](https://github.com/nmasse-itix/api-lifecycle-workshop/tree/master/lab-instructions), Asciidoc ?)
-* 🔴 Lab materials: Site generator ([Hugo](https://api-lifecycle-workshop.netlify.app/), Athena ?)
+* 🟢 Hosting: ~~HPE~~, **RHPDS**
+* 🟢 Hosting: Deployment Method (**ArgoCD**, ~~Ansible~~ ?)
+* 🟢 Lab materials: Format ([Markdown](https://github.com/nmasse-itix/api-lifecycle-workshop/tree/master/lab-instructions), ~~Asciidoc~~ ?)
+* 🟢 Lab materials: Site generator ([Hugo](https://api-lifecycle-workshop.netlify.app/) on github pages, ~~Athena~~ ?)
 * 🔴 Lab materials: Theme ([Learn](https://learn.netlify.app/en/))
