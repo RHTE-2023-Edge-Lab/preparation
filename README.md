@@ -56,3 +56,4 @@ Lab materials are due for December, the 23rd.
 * 🟢 Lab materials: Format ([Markdown](https://github.com/nmasse-itix/api-lifecycle-workshop/tree/master/lab-instructions), ~~Asciidoc~~ ?)
 * 🟢 Lab materials: Site generator ([Hugo](https://api-lifecycle-workshop.netlify.app/) on github pages, ~~Athena~~ ?)
 * 🟢 Lab materials: Theme ([Learn](https://learn.netlify.app/en/))
+* 🔴 Lab materials: Content
