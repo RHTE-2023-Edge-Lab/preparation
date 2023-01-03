@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-03T14:30:57.963Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="Api0XikOEje78wXDpLdf" version="20.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-01-03T14:41:56.286Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" etag="TWzKN5MZ29irKtyhR9zI" version="20.6.0" type="github">
   <diagram id="752r7b34Qd-6FPrG6xQN" name="Page-1">
     <mxGraphModel dx="1422" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -11,10 +11,10 @@
           <mxGeometry x="250" y="30" width="300" height="150" as="geometry" />
         </mxCell>
         <mxCell id="LxrfSHSaZPBQn56vvCMA-3" value="Front&lt;br&gt;(techno à déterminer, Kibana, Grafana possible)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="61.89" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="61.89" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LxrfSHSaZPBQn56vvCMA-4" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
-          <mxGeometry x="590" y="200" width="40" height="60" as="geometry" />
+          <mxGeometry x="590" y="280" width="40" height="60" as="geometry" />
         </mxCell>
         <mxCell id="LxrfSHSaZPBQn56vvCMA-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -113,13 +113,13 @@
           <mxGeometry x="300" y="680" width="40" height="560" as="geometry" />
         </mxCell>
         <mxCell id="BNGL0QqLlB4n35BHnOds-2" value="Kafka Streams" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="246.17000000000002" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="246.17000000000002" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BNGL0QqLlB4n35BHnOds-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" source="BNGL0QqLlB4n35BHnOds-3" target="LxrfSHSaZPBQn56vvCMA-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="BNGL0QqLlB4n35BHnOds-3" value="Camel Quarkus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="430" y="220" width="120" height="60" as="geometry" />
+          <mxGeometry x="430" y="300" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BNGL0QqLlB4n35BHnOds-7" value="2 topics (in + out)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="530" y="590" width="60" height="30" as="geometry" />
@@ -134,13 +134,16 @@
           <mxGeometry x="421.95" y="490" width="168.05" height="70" as="geometry" />
         </mxCell>
         <mxCell id="BNGL0QqLlB4n35BHnOds-12" value="20 topics (in + out)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="620" y="260" width="60" height="30" as="geometry" />
+          <mxGeometry x="620" y="339" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="BNGL0QqLlB4n35BHnOds-13" value="1 topic" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="520" y="200" width="60" height="30" as="geometry" />
+          <mxGeometry x="520" y="280" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="BNGL0QqLlB4n35BHnOds-14" value="{ &quot;id&quot;: &quot;00:11:22:33&quot;, &quot;timestamp&quot;: &quot;112344555&quot; }" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.73;" vertex="1" parent="1">
-          <mxGeometry x="90" y="160" width="168.05" height="70" as="geometry" />
+        <mxCell id="BNGL0QqLlB4n35BHnOds-14" value="{ &quot;from&quot;: &quot;par&quot;, &quot;to&quot;: &quot;ath&quot;, &quot;ts&quot;: &quot;1234567&quot;, &quot;id&quot;: &quot;00:11:22:33&quot; }" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.73;" vertex="1" parent="1">
+          <mxGeometry x="61.89" y="240" width="200" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BNGL0QqLlB4n35BHnOds-15" value="{ &quot;id&quot;: &quot;00:11:22:33&quot;, &quot;ts&quot;: 12345678, &quot;location&quot;: &quot;par&quot;, &quot;direction&quot;: &quot;out&quot; }&lt;br&gt;{ &quot;id&quot;: &quot;00:11:22:33&quot;, &quot;ts&quot;: 456789123, &quot;location&quot;: &quot;ath&quot;, &quot;direction&quot;: &quot;in&quot; }" style="shape=callout;whiteSpace=wrap;html=1;perimeter=calloutPerimeter;position2=0.45;" vertex="1" parent="1">
+          <mxGeometry x="300" y="200" width="200" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
