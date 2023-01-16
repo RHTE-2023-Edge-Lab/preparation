@@ -128,6 +128,7 @@ spec:
 
 ```groovy
 from("kamelet:mqtt-source?brokerUrl=tcp://192.168.15.21:30297&topic=/test/nmasse@redhat.com/label-reader&clientId=camel-k&username=admin&password=public")
+.setHeader("kafka.KEY").simple("${body}")
 .convertBodyTo(String.class)
 .setBody({ e -> [ id: e.in.body, timestamp: new Date().getTime() ] })
 .marshal().json()
